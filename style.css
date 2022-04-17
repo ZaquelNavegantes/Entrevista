@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background-color: #fc370c;
+  font-family: sans-serif;
+}
+
+main {
+  background-color: #ffdeb3; 
+  width: 80%;
+  height: 100%;
+  max-width: 80%;
+}
+
+div{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+#dados{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  margin-top: 50px;
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: #342220;
+  margin-top: 20px;
+  font-size: 32px;
+}
+
+h2 {
+  text-align: center;
+  color: #342220;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+lu{
+  margin-top: 20px
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  color: #342220;
+}
+
+header{
+  background-color: #ff8716;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;    
+  top: 0;
+}
+
+header nav {
+  width: 20%;
+  margin-left: auto;
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: white;
+}
+
+#voltar{
+  width: 100%;
+}
+
+#voltar nav{
+  width: 10%; 
+  margin-left: 0%;
+}
+
+footer{
+  background-color:#ff8716;
+  width:100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;    
+  bottom: 0;
+
+}
+
+button{
+  margin-top: 20px;
+  width: 100px;
+  font-size: 16px;
+  border-radius: 6px;
+  background-color: #fc370c;
+  border: 1px solid;
+  color: #ffdeb3;
+  padding: 2px;
+}
+
+button a{
+  color:#ffdeb3;
+}
+
+button a:hover{
+  color:black;
+}
+
+button:hover{
+  color: black;
+}
+
+fieldset{
+  width: 500px;
+  height: 500px;
+  padding: 20px;
+}
+
+input{
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+select:invalid{
+  color: grey;
+}
+
+select{
+  width: 500px;
+}
+
+#logo{
+  width: 70px;
+  clip-path: circle(50%);
+}
+
+.contatos{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  width: 30%;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.contato{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  width: 30%;
+  gap: 20px;
+}
+
+
+footer h2{
+  margin-top: 10px;
+}
+
+h4{
+  font-family: sans-serif;
+  width: 30%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: 0;
+  color: #342220;
+}
