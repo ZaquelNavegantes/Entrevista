@@ -1,3 +1,3 @@
 # Entrevista
 
-<p>Nesse projeto desenvolvi um pequeno questionário com os conceitos básicos abstraídos acerca dos formulários</p>
+<p>Neste projeto, desenvolvi um questionário simples que aborda os conceitos básicos relacionados a formulários.</p>
